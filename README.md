@@ -1,28 +1,20 @@
 # Family Recipe Project
 
-This is a personal project where I bring together recipes from my family and my partner's family in one place. It is a collection of meals, traditions, and memories that have been shared across generations.
+This is a personal project where I combine recipes from my family and my partner's family into one shared collection. It is a space for food, family stories, and traditions that we want to keep and grow over time.
 
-The goal of this project is to preserve family recipes, celebrate both of our backgrounds, and create a space where we can continue adding dishes that matter to us.
+## About the Site
 
-## What's Inside
+The website highlights a few featured family recipes, shares short stories behind meaningful dishes, and includes a form for adding new recipes. The goal is to keep our family food traditions in one place and make them easy to revisit.
 
-- Recipes passed down from my family
-- Recipes shared by my partner's family
-- A growing collection of meaningful meals and traditions
+## Current Sections
 
-## Purpose
+- Featured recipes from both families
+- Story notes that explain where a dish comes from
+- A form to add new recipes and memories
 
-This project is more than just a recipe collection. It is a way to keep family history alive, share culture through food, and build something personal that we can keep growing over time.
+## Future Ideas
 
-## chapters
-
-- special chapters for;
-nana
-granpda
-moms
-dads
-
-- write story for each food(s)
-- foods we made for certain parties like the cottage paeties 
-- trends we had like what we craved for certain parts of our relationships
-- 
+- Create recipe chapters for Nana, Grandpa, Mom, and Dad
+- Add a story for each recipe
+- Include foods from special events like cottage parties
+- Track food trends and cravings from different parts of our relationship
