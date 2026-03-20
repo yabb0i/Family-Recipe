@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Recipe Collection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div>
+        <p class="eyebrow">Family Recipe Project</p>
+        <h1>Our Family Recipes</h1>
+        <p class="subtitle">A shared collection of dishes, stories, and traditions from both families.</p>
+      </div>
+      <nav>
+        <a href="#recipes">Recipes</a>
+        <a href="#stories">Stories</a>
+        <a href="#add">Add Recipe</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="recipes" class="card">
+      <h2>Featured Recipes</h2>
+      <div class="grid">
+        <article>
+          <h3>Grandma’s Fried Chicken</h3>
+          <p>Classic deep-fried comfort food with a secret family spice blend.</p>
+        </article>
+        <article>
+          <h3>Pasta al Limone</h3>
+          <p>A bright, lemony noodle dish from our partner’s family Sunday dinners.</p>
+        </article>
+        <article>
+          <h3>Holiday Fruit Cake</h3>
+          <p>We bake this at every family party and share the story behind it.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="stories" class="card">
+      <h2>Recipe Stories</h2>
+      <ul class="stories">
+        <li><strong>Nana’s Soup:</strong> Made every winter to warm the whole family.</li>
+        <li><strong>Dad’s Barbecue:</strong> A weekend tradition with shared seasoning secrets.</li>
+        <li><strong>Partner’s Family Rice:</strong> Served at weddings and first dates.</li>
+      </ul>
+    </section>
+
+    <section id="add" class="card">
+      <h2>Add a New Recipe</h2>
+      <form id="recipe-form">
+        <label for="name">Recipe Name</label>
+        <input id="name" name="name" required />
+
+        <label for="origin">Family Origin</label>
+        <input id="origin" name="origin" placeholder="e.g., Mom, Grandpa, Partner" required />
+
+        <label for="notes">Notes or Story</label>
+        <textarea id="notes" name="notes" rows="4" required></textarea>
+
+        <button type="submit">Save Recipe</button>
+      </form>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Family Recipe Project — Build your shared story.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
