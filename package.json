@@ -1,0 +1,24 @@
+{
+  "name": "family-recipe",
+  "version": "1.0.0",
+  "description": "This is a personal project where I combine recipes from my family and my partner's family into one shared collection. It is a space for food, family stories, and traditions that we want to keep and grow over time.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yabb0i/Family-Recipe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yabb0i/Family-Recipe/issues"
+  },
+  "homepage": "https://github.com/yabb0i/Family-Recipe#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
